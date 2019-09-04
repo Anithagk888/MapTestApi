@@ -115,7 +115,7 @@ public class MapsActivity extends FragmentActivity implements
                 Uri.parse("http://host/path"),
                 // TODO: Make sure this auto-generated app deep link URI is correct.
               //  Uri.parse("android-app://net.simplifiedcoding.googlemapsdistancecalc/http/host/path")
-                Uri.parse("http://host/path")
+                Uri.parse("android-app:/com.anitha.maptestapi/http/host/path")
         );
         AppIndex.AppIndexApi.start(googleApiClient, viewAction);
     }
@@ -134,7 +134,7 @@ public class MapsActivity extends FragmentActivity implements
                 // Otherwise, set the URL to null.
                 Uri.parse("http://host/path"),
                 // TODO: Make sure this auto-generated app deep link URI is correct.
-                Uri.parse("http://host/path")
+                Uri.parse("android-app:/com.anitha.maptestapi/http/host/path")
         );
         AppIndex.AppIndexApi.end(googleApiClient, viewAction);
     }
